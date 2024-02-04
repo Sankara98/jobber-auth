@@ -2,7 +2,7 @@
   "name": "jobber-auth-service",
   "version": "1.0.0",
   "description": "",
-  "main": "app",
+  "main": "app.js",
   "scripts": {
     "start": "pm2 start ./build/src/app.js -i 5 --attach --watch | pino-pretty -c",
     "dev": "nodemon -r tsconfig-paths/register src/app.ts | pino-pretty -c",
